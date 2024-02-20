@@ -1,4 +1,4 @@
 # Olá, Mundo!
- Primeiro Repositório
+ Repositório
 
 Meu primeiro repositório.
