@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="shortcut icon" href="clock-icon.ico">
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+<body onload="pesquisar()">
     <header>
         <h1>Olá, Mundo!</h1>
         <hr>
     </header>
 <br>
+
+    <img id="imagem" src="imagem/relogio.png" alt="horas">
+
+
     <section>
+        <div id="msg">
+           <p>Hoje </p>
+        </div>
         <div>
             <h2>Lorem</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -20,11 +28,14 @@
                 Dolorem perspiciatis eveniet deleniti a, voluptate officia error odio dolore provident inventore.</p>
             
         </div>
+       
  
     </section>
     <footer>
         <p>&copy;Lorem</p>
     </footer>
-    
+    <script src="script.js">
+
+    </script>
 </body>
 </html>
